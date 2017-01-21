@@ -1,10 +1,6 @@
 #!/bin/bash
 
-# sample.csv format
-# UNIX Host,host1,"['10.0.0.1', '10.0.0.2', '10.0.0.3', '10.0.0.4', '10.0.0.5']",  ,,fqdn.com,"['00:4t:77:v5:t5:y3', '00:4t:77:v5:t5:y4', '00:4t:77:v5:t5:y5', '00:4t:77:v5:t5:y6', ]",Super Cool Linux version 10.3.10.3,Manu Inc.,HOST-2341X3-PN,58503875
-# UNIX Host,host2,99.10.10.01,  ,,fqdn.com,"['00:4t:77:v5:t5:y3', '00:4t:77:v5:t5:y4', '00:4t:77:v5:t5:y5', '00:4t:77:v5:t5:y6', ]",Super Cool Linux version 10.3.10.3,Manu Inc.,HOST-2341X3-PN,58503875
-
-base_dir="/home/afcamar/gitlab/datamonk/data-cleaner/data"
+base_dir="/path/to/data"
 data_files="sample"
 
 IFS=','
